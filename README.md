@@ -2,7 +2,8 @@
 
 Communication Contract
 
-Overview
+Overview:
+
 This document outlines the communication contract between the client application and the Windows 10/11 Optimization Program microservice. The microservice is responsible for generating a list of installed programs and uninstalling specified programs on the client's machine.
 
 Install Programs
