@@ -62,24 +62,43 @@ Here is a UML sequence diagram that shows how the client application communicate
 
 
 Client Application          Microservice
+
         |                           |
+        
         |        GET /installed_programs
+        
         |-------------------------->|
+        
         |                           |
+        
         |          List of installed programs
+        
         |<--------------------------|
+        
         |                           |
+        
         |       POST /uninstall_programs
+        
         |-------------------------->|
+        
         |                           |
+        
         |    List of programs to uninstall
+        
         |<--------------------------|
+        
         |                           |
+        
         |       Uninstall specified programs
+        
         |-------------------------->|
+        
         |                           |
+        
         |    Results of uninstallation
+        
         |<--------------------------|
+        
         |                           |
 
 
